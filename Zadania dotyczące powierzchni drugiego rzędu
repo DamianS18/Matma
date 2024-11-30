@@ -1,0 +1,61 @@
+# Równanie sfery w przestrzeni 3D
+
+## Zadanie
+Znajdź równanie sfery o środku w punkcie \(P = (1, 2, 3)\) i promieniu \(r = 3\).
+
+---
+
+## Rozwiązanie
+
+### Równanie ogólne sfery
+Równanie sfery w przestrzeni trójwymiarowej jest dane wzorem:
+\[
+(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = r^2,
+\]
+gdzie:
+- \((x_0, y_0, z_0)\) to współrzędne środka sfery,
+- \(r\) to promień sfery.
+
+---
+
+### Podstawienie danych
+Podstawiając dane \(P = (1, 2, 3)\) oraz \(r = 3\), otrzymujemy równanie:
+\[
+(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9.
+\]
+
+---
+
+### W GeoGebrze
+
+#### 1. **Aktywacja widoku 3D**
+   - W menu **View** wybierz **3D Graphics**.
+
+#### 2. **Definicja sfery**
+   - Wprowadź równanie w pasku wejściowym:
+     ```plaintext
+     (x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9
+     ```
+   - Alternatywnie, użyj polecenia:
+     ```plaintext
+     P = (1, 2, 3)
+     r = 3
+     Sphere[P, r]
+     ```
+
+#### 3. **Efekt**
+   - GeoGebra narysuje sferę w widoku 3D.
+
+---
+
+### Uwagi
+- Sfera jest w pełni widoczna tylko w widoku 3D.
+- Równanie sfery można modyfikować, zmieniając jej środek i promień.
+
+---
+
+### Wynik końcowy
+Równanie sfery:
+\[
+(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9.
+\]
