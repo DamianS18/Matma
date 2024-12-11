@@ -1,0 +1,86 @@
+# Rysowanie funkcji i obliczanie ich wartości w punkcie \( x = 2 \)
+
+## Opis funkcji
+
+1. **Funkcja kwadratowa:**
+   - Funkcja kwadratowa jest funkcją drugiego stopnia. Jej ogólna postać to:
+     \[
+     f(x) = x^2
+     \]
+   - Jest to parabola, której wierzchołek znajduje się w punkcie \( (0, 0) \) i otwiera się w górę.
+   - Dla każdego \( x \), wartość funkcji jest równa kwadratowi \( x \).
+
+2. **Funkcja liniowa:**
+   - Funkcja liniowa ma postać:
+     \[
+     g(x) = x
+     \]
+   - Jest to linia prosta przechodząca przez punkt \( (0, 0) \) o nachyleniu 1.
+   - Funkcja ta jest proporcjonalna, tzn. dla każdego \( x \) wartość funkcji jest równa \( x \).
+
+3. **Funkcja odwrotna:**
+   - Funkcja odwrotna jest funkcją, której wartość w każdym punkcie jest odwrotnością \( x \):
+     \[
+     h(x) = \frac{1}{x}
+     \]
+   - Funkcja ta ma dwie gałęzie — jedną dla \( x > 0 \) i drugą dla \( x < 0 \). Jest to funkcja, która nigdy nie przyjmuje wartości w punkcie \( x = 0 \), ponieważ w tym punkcie nie jest określona.
+
+4. **Funkcja trygonometryczna:**
+   - Funkcja trygonometryczna sinus to:
+     \[
+     j(x) = \sin(x)
+     \]
+   - Jest to funkcja okresowa, której wartości oscylują między -1 a 1. Okres tej funkcji wynosi \( 2\pi \), co oznacza, że po każdych \( 2\pi \) jednostkach wartości funkcji powtarzają się.
+
+## Obliczanie wartości funkcji w punkcie \( x = 2 \)
+
+Aby znaleźć wartości tych funkcji w punkcie \( x = 2 \), podstawiamy \( x = 2 \) do każdej z funkcji:
+
+1. **Dla funkcji \( f(x) = x^2 \):**
+   \[
+   f(2) = 2^2 = 4
+   \]
+
+2. **Dla funkcji \( g(x) = x \):**
+   \[
+   g(2) = 2
+   \]
+
+3. **Dla funkcji \( h(x) = \frac{1}{x} \):**
+   \[
+   h(2) = \frac{1}{2} = 0.5
+   \]
+
+4. **Dla funkcji \( j(x) = \sin(x) \):**
+   \[
+   j(2) \approx \sin(2) \approx 0.909
+   \]
+   (Wartość ta jest przybliżona, ponieważ funkcja sinus nie daje wyniku całkowitego dla \( x = 2 \)).
+
+## Wizualizacja funkcji
+
+- **Funkcja kwadratowa \( f(x) = x^2 \)**: Parabola, w której wartości rosną w miarę oddalania się od punktu \( x = 0 \).
+- **Funkcja liniowa \( g(x) = x \)**: Prosta przechodząca przez początek układu współrzędnych, nachylona pod kątem 45 stopni względem osi \( x \).
+- **Funkcja odwrotna \( h(x) = \frac{1}{x} \)**: Krzywa, która ma dwie gałęzie: jedną dla dodatnich \( x \), a drugą dla ujemnych. Asymptoty: oś \( y \) i oś \( x \).
+- **Funkcja sinus \( j(x) = \sin(x) \)**: Krzywa sinusoidalna, która oscyluje pomiędzy -1 a 1, o okresie \( 2\pi \).
+
+## Podsumowanie
+
+- Wartości funkcji w \( x = 2 \) wynoszą:
+  - \( f(2) = 4 \)
+  - \( g(2) = 2 \)
+  - \( h(2) = 0.5 \)
+  - \( j(2) \approx 0.909 \)
+  
+Wszystkie te funkcje mają różne właściwości graficzne i algebraiczne. Wartości te pokazują, jak każda z funkcji zachowuje się w punkcie \( x = 2 \).
+
+
+## Kroki w GeoGebrze
+
+### 1. Wprowadzenie funkcji
+Wpisz w polu wejściowym GeoGebry następujące równania:
+```plaintext
+f(x) = x^2
+g(x) = x
+h(x) = 1/x
+j(x) = sin(x)

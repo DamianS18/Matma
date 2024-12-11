@@ -1,0 +1,82 @@
+# Kompozycje funkcji
+
+W tej notatce przedstawiamy sposób obliczania kompozycji funkcji oraz ich wizualizację. Rozważmy dwie funkcje:
+
+- $f(x) = 3x - 1$
+- $g(x) = x$
+
+Naszym celem jest obliczenie wartości następujących kompozycji funkcji:
+- $f(g(x))$
+- $g(f(x))$
+- $f(f(x))$
+- $g(g(x))$
+
+## 1. Kompozycja funkcji $f(g(x))$
+
+Aby obliczyć kompozycję $f(g(x))$, podstawiamy wyrażenie $g(x)$ do funkcji $f(x)$:
+
+$$
+f(g(x)) = f(x)
+$$
+
+Ponieważ $g(x) = x$, więc mamy:
+
+$$
+f(g(x)) = f(x) = 3x - 1
+$$
+
+Widzimy, że kompozycja $f(g(x))$ jest po prostu równaniem $f(x) = 3x - 1$, ponieważ funkcja $g(x) = x$ nie zmienia wartości $x$.
+
+## 2. Kompozycja funkcji $g(f(x))$
+
+Obliczmy teraz kompozycję $g(f(x))$. Podstawiamy $f(x)$ do funkcji $g(x)$:
+
+$$
+g(f(x)) = g(3x - 1)
+$$
+
+Ponieważ $g(x) = x$, to:
+
+$$
+g(f(x)) = 3x - 1
+$$
+
+Zatem $g(f(x))$ również daje funkcję $3x - 1$, ponieważ funkcja $g(x) = x$ nie wpływa na wartość argumentu.
+
+## 3. Kompozycja funkcji $f(f(x))$
+
+Aby obliczyć $f(f(x))$, podstawiamy wyrażenie $f(x)$ do funkcji $f(x)$:
+
+$$
+f(f(x)) = f(3x - 1)
+$$
+
+Podstawiamy teraz $3x - 1$ do funkcji $f(x) = 3x - 1$:
+
+$$
+f(f(x)) = 3(3x - 1) - 1
+$$
+
+Rozwijamy to wyrażenie:
+
+$$
+f(f(x)) = 9x - 3 - 1 = 9x - 4
+$$
+
+Zatem $f(f(x)) = 9x - 4$.
+
+## 4. Kompozycja funkcji $g(g(x))$
+
+Na koniec obliczamy $g(g(x))$. Ponieważ $g(x) = x$, mamy:
+
+$$
+g(g(x)) = g(x) = x
+$$
+
+Wartość $g(g(x))$ jest po prostu $x$, ponieważ funkcja $g(x) = x$ to funkcja identycznościowa.
+
+## Wizualizacja funkcji w GeoGebrze
+
+Aby wizualizować te funkcje, można skorzystać z GeoGebry. Wpiszemy poniższe funkcje:
+
+- $f(x) = 3x - 1
