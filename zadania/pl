@@ -1,0 +1,26 @@
+# Rysowanie funkcji w GeoGebrze i obliczanie ich wartości
+
+W tej notatce przedstawiono, jak narysować funkcje w GeoGebrze i obliczyć ich wartości w punkcie \( x = 2 \).
+
+## Funkcje do narysowania
+
+Wprowadź poniższe funkcje do GeoGebry:
+
+1. Funkcja kwadratowa:
+   - \( f(x) = x^2 \)
+2. Funkcja liniowa:
+   - \( g(x) = x \)
+3. Funkcja odwrotna:
+   - \( h(x) = \frac{1}{x} \)
+4. Funkcja trygonometryczna:
+   - \( j(x) = \sin(x) \)
+
+## Kroki w GeoGebrze
+
+### 1. Wprowadzenie funkcji
+Wpisz w polu wejściowym GeoGebry następujące równania:
+```plaintext
+f(x) = x^2
+g(x) = x
+h(x) = 1/x
+j(x) = sin(x)
