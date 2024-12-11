@@ -1,0 +1,43 @@
+# Analiza punktów wspólnych dwóch sfer
+
+## Zadanie
+Sprawdź, czy sfery o równaniach $x^2 + y^2 + z^2 = 1$ oraz $x^2 + y^2 + z^2 = 2$ mają punkty wspólne.
+
+---
+
+## Rozwiązanie
+
+### 1. Równania sfer
+- Sfera $S_1$: $x^2 + y^2 + z^2 = 1$  
+  - Środek: $(0, 0, 0)$  
+  - Promień: $r_1 = 1$
+
+- Sfera $S_2$: $x^2 + y^2 + z^2 = 2$  
+  - Środek: $(0, 0, 0)$  
+  - Promień: $r_2 = \sqrt{2}$
+
+---
+
+### 2. Analiza geometryczna
+- Obie sfery mają ten sam środek $(0, 0, 0)$, czyli są **koncentryczne**.
+- Promienie są różne:  
+  $r_1 = 1$ dla $S_1$ i $r_2 = \sqrt{2}$ dla $S_2$.
+
+- Sfera $S_1$ (mniejsza) jest całkowicie zawarta wewnątrz sfery $S_2$ (większej), ale ich powierzchnie nie przecinają się.
+
+---
+
+### 3. Sprawdzenie punktów wspólnych
+Aby dwa punkty $(x, y, z)$ były wspólne dla obu sfer, muszą spełniać oba równania:
+1. $x^2 + y^2 + z^2 = 1$
+2. $x^2 + y^2 + z^2 = 2$
+
+- Jednoczesne spełnienie obu równań wymaga, aby $x^2 + y^2 + z^2$ było równe zarówno $1$, jak i $2$, co jest niemożliwe.
+
+---
+
+### Wniosek
+Sfery **nie mają punktów wspólnych**, ponieważ:
+- Są koncentryczne.
+- Powierzchnie sfer nie przecinają się.
+- Nie istnieje punkt $(x, y, z)$ spełniający oba równania jednocześnie.

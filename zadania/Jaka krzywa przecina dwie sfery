@@ -1,0 +1,76 @@
+# Krzywa przecięcia dwóch sfer
+
+## Zadanie
+Znajdź krzywą przecięcia sfer:
+1. $x^2 + y^2 + z^2 = 1$
+2. $(x - 1)^2 + y^2 + z^2 = 1$
+
+---
+
+## Rozwiązanie
+
+### 1. Teoria
+Punkty przecięcia dwóch sfer w przestrzeni 3D tworzą krzywą, która jest **okręgiem**.  
+Okrąg przecięcia leży w płaszczyźnie będącej średnią geometryczną obu sfer, pod warunkiem, że sfery mają wspólne punkty (tzn. odległość między ich środkami jest mniejsza niż suma promieni, a większa niż ich różnica).
+
+---
+
+### 2. Równania sfer
+Pierwsza sfera:
+\[
+x^2 + y^2 + z^2 = 1
+\]
+
+Druga sfera (po rozwinięciu):
+\[
+(x - 1)^2 + y^2 + z^2 = 1 \quad \implies \quad x^2 - 2x + 1 + y^2 + z^2 = 1
+\]
+\[
+\implies x^2 + y^2 + z^2 - 2x = 0
+\]
+
+---
+
+### 3. Znalezienie płaszczyzny
+Podstawiamy równanie pierwszej sfery $x^2 + y^2 + z^2 = 1$ do równania drugiej sfery:
+\[
+1 - 2x = 0 \quad \implies \quad x = \frac{1}{2}
+\]
+
+Płaszczyzna przecięcia obu sfer to:
+\[
+x = \frac{1}{2}.
+\]
+
+---
+
+### 4. Znalezienie promienia okręgu
+Środek okręgu przecięcia leży na osi $x$ w punkcie $(\frac{1}{2}, 0, 0)$. Promień okręgu obliczamy jako odległość punktu $(\frac{1}{2}, 0, 0)$ od dowolnego punktu na powierzchni jednej z sfer, przy założeniu, że leży w płaszczyźnie $x = \frac{1}{2}$.
+
+Punkty na sferze spełniają równanie:
+\[
+\left( \frac{1}{2} \right)^2 + y^2 + z^2 = 1
+\]
+\[
+\implies y^2 + z^2 = 1 - \frac{1}{4} = \frac{3}{4}.
+\]
+
+Promień okręgu:
+\[
+r = \sqrt{\frac{3}{4}} = \frac{\sqrt{3}}{2}.
+\]
+
+---
+
+### 5. Wynik końcowy
+Krzywą przecięcia dwóch sfer jest okrąg:
+- Środek: $\left(\frac{1}{2}, 0, 0\right)$
+- Płaszczyzna: $x = \frac{1}{2}$
+- Promień: $r = \frac{\sqrt{3}}{2}$
+
+---
+
+### 6. Wnioski
+Krzywe przecięcia dwóch sfer zawsze są okręgami, pod warunkiem, że sfery mają wspólne punkty.
+
+---
