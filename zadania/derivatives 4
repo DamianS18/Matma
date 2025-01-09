@@ -1,0 +1,52 @@
+## 4. Reguła de l'Hospitala i granice
+
+### a) $\lim_{x \to 0} \frac{\sin(x)}{x}$
+
+Wartość $\frac{\sin(x)}{x}$ dla $x \to 0$ przyjmuje postać $\frac{0}{0}$, więc stosujemy regułę de l'Hospitala:
+
+$$
+\lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1} = 1
+$$
+
+### b) $\lim_{x \to \infty} \frac{\ln(x)}{x}$
+
+Wartość $\frac{\ln(x)}{x}$ dla $x \to \infty$ przyjmuje postać $\frac{\infty}{\infty}$, więc stosujemy regułę de l'Hospitala:
+
+$$
+\lim_{x \to \infty} \frac{\ln(x)}{x} = \lim_{x \to \infty} \frac{1/x}{1} = 0
+$$
+
+### c) $\lim_{x \to \infty} \frac{e^x}{x}$
+
+Wartość $\frac{e^x}{x}$ dla $x \to \infty$ przyjmuje postać $\frac{\infty}{\infty}$, więc stosujemy regułę de l'Hospitala:
+
+$$
+\lim_{x \to \infty} \frac{e^x}{x} = \lim_{x \to \infty} \frac{e^x}{1} = \infty
+$$
+
+## Reguła de l'Hospitala – co to jest?
+
+Reguła de l'Hospitala to narzędzie matematyczne, które pomaga obliczyć granice funkcji w sytuacjach, gdy w danym punkcie granicznym otrzymujemy wyrażenie typu:
+
+- $ \frac{0}{0} $ (tzw. forma nieoznaczona),
+- $ \frac{\infty}{\infty} $ (inna forma nieoznaczona).
+
+
+### Jak działa reguła de l'Hospitala?
+
+Jeśli mamy funkcję w postaci
+
+$$
+\lim_{x \to a} \frac{f(x)}{g(x)}
+$$
+
+i uzyskujemy formę $ \frac{0}{0} $
+
+ lub 
+ $ \frac{\infty}{\infty} $, to możemy zastosować regułę de l'Hospitala:
+
+$$
+\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
+$$
+
+Innymi słowy: zamiast szukać granicy pierwotnych funkcji \( f(x) \) i \( g(x) \), liczymy ich pochodne \( f'(x) \) i \( g'(x) \), a następnie ponownie obliczamy granicę. Jeśli wynik nadal jest nieoznaczony, możemy stosować tę regułę wielokrotnie.

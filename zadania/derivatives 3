@@ -1,0 +1,60 @@
+## Zadanie
+
+Oblicz pierwszą i drugą pochodną funkcji oraz sprawdź, czy \( f''(x) = -f(x) \).
+
+1. Obliczenie pierwszej pochodnej \( f'(x) \):
+
+Dla \( f(x) = cos(x) \), obliczamy pierwszą pochodną:
+
+$$
+f'(x) = \frac{d}{dx} (cos(x) = -\sin(x)
+$$
+
+
+2. Obliczenie drugiej pochodnej \( f''(x) \):
+
+Liczymy pochodną \( f'(x) = -sin(x) \):
+
+$$
+f''(x) = \frac{d}{dx} (-\sin(x)) = -\cos(x)
+$$
+
+3. Sprawdzenie, czy \( f''(x) = -f(x) \):
+
+Widzimy, że:
+
+$$
+f''(x) = -\cos(x)
+$$
+
+Ale z definicji \( f(x) = \cos(x) \), więc:
+
+$$
+f''(x) = -f(x)
+$$
+
+To dowodzi, że równość jest prawdziwa.
+
+
+## Symbol różniczkowania
+
+Symbol $\frac{d}{dx} $
+mówi nam, że mamy obliczyć, jak dana funkcja zmienia się względem zmiennej \( x \). Oznacza to: "Jak szybko rośnie lub maleje \( y = f(x) \), gdy zmieniamy \( x \)?"
+
+### Przykład:
+
+Dla \( f(x) = x^2 \), różniczkowanie oznacza:
+
+$$
+\frac{d}{dx} x^2 = 2x
+$$
+
+Wynik \( 2x \) mówi, że tempo zmiany \( x^2 \) w punkcie \( x = a \) wynosi \( 2a \).
+
+Dla \( f(x) = cos(x) \), różniczkowanie daje:
+
+$$
+\frac{d}{dx} \cos(x) = -\sin(x)
+$$
+
+To oznacza, że tempo zmiany \( cos(x) \) w danym punkcie to \( -sin(x) \).
