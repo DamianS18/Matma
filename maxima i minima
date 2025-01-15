@@ -1,0 +1,163 @@
+Maksymalizacja zysku, funkcja zysku jest dana wzorem:  
+$$ P(u) = -2u^2 + 50u - 300 $$  
+gdzie $u$ oznacza liczbę sprzedanych jednostek.
+
+**Krok 1: Znajdź punkty krytyczne**
+
+Punkty krytyczne występują tam, gdzie pierwsza pochodna $P'(u)$ równa się zero.  
+
+Policzmy pochodną:  
+$$ P'(u) = \frac{d}{du}(-2u^2 + 50u - 300) = -4u + 50 $$
+
+Rozwiązujemy równanie $P'(u) = 0$:  
+$$ -4u + 50 = 0 \implies u = 12.5 $$
+
+**Krok 2: Sprawdź naturę punktu krytycznego**
+
+Druga pochodna funkcji to:  
+$$ P''(u) = -4 $$
+
+Ponieważ $P''(u) < 0$, oznacza to, że funkcja osiąga **maksimum** w punkcie $u = 12.5$.
+
+**Wniosek**
+Zysk jest maksymalny, gdy sprzedamy 12,5 jednostek.
+
+---
+ **Pochodna** $P'(u)$ mierzy tempo zmian funkcji $P(u)$ w zależności od liczby sprzedanych jednostek $u$.  
+   - Jeśli $P'(u) > 0$, to zysk $P(u)$ **rośnie**, gdy zwiększamy $u$.  
+   - Jeśli $P'(u) < 0$, to zysk $P(u)$ **maleje**, gdy zwiększamy $u$.  
+   - Gdy $P'(u) = 0$, oznacza to, że funkcja $P(u)$ **osiąga ekstremum** – czyli albo maksimum, albo minimum.
+
+W naszym przykładzie:
+\
+P'(u) = -4u + 50
+\
+Rozwiązujemy równanie  P'(u) = 0 
+
+-4u + 50 = 0  co daje wynik u = 12.5
+
+
+
+ **Druga pochodna** $P''(u)$ wskazuje, czy funkcja jest wypukła w dół (maksimum) czy wypukła w górę (minimum).  
+
+W naszym przykładzie:
+\[
+P''(u) = -4
+\]
+Ponieważ $P''(u) < 0$, funkcja jest wypukła w dół, co oznacza, że w punkcie $u = 12.5$ mamy **maksimum**.
+
+
+
+### **Podsumowanie:**
+Liczymy pochodne, ponieważ:
+- Pierwsza pochodna pozwala znaleźć miejsca, w których funkcja osiąga ekstremum (maksimum lub minimum).  
+- Druga pochodna pozwala określić, czy dane ekstremum to maksimum (gdy $P'' < 0$) czy minimum (gdy $P'' > 0$).  
+
+W ten sposób precyzyjnie określamy, przy ilu jednostkach sprzedanych zysk będzie największy.
+
+---
+
+
+# **Zadanie 2**
+Masz 10 metrów sznurka do otoczenia prostokąta o maksymalnym polu. Obwód prostokąta wynosi:  
+$P = 2l + 2w = 10$,  
+gdzie $l$ to długość, a $w$ to szerokość.
+
+**Krok 1: Wyraź pole jako funkcję jednej zmiennej**
+
+Z obwodu:  
+$l + w = 5 \implies w = 5 - l$  
+Pole $A$ prostokąta to:  
+$A = l \cdot w = l(5 - l) = 5l - l^2$
+
+**Krok 2: Znajdź punkty krytyczne funkcji $A(l)$**
+
+Liczymy pochodną funkcji:  
+$A'(l) = \frac{d}{dl}(5l - l^2) = 5 - 2l$
+
+Rozwiązujemy równanie $A'(l) = 0$:  
+$5 - 2l = 0 \implies l = 2.5$
+
+**Krok 3: Sprawdź naturę punktu krytycznego**
+
+Druga pochodna to:  
+$A''(l) = -2$  
+Ponieważ $A''(l) < 0$, pole osiąga maksimum, gdy $l = 2.5$.
+
+**Krok 4: Znajdź $w$**
+
+Z $w = 5 - l$:  
+$w = 5 - 2.5 = 2.5$
+
+**Wynik**
+Prostokąt o maksymalnym polu ma wymiary:  
+$l = 2.5 \, \text{m}, \, w = 2.5 \, \text{m}$  
+Pole wynosi:  
+$A = l \cdot w = 2.5 \cdot 2.5 = 6.25 \, \text{m}^2$
+
+---
+
+# **Zadanie 3**
+
+
+Znalezienie ekstremum funkcji dla funkcji $f(x) = x^2 + 3x - 5$:
+
+**Krok 1: Policz pochodną funkcji**
+Pierwsza pochodna funkcji to:  
+$f'(x) = 2x + 3$  
+
+Rozwiązujemy równanie $f'(x) = 0$:  
+$2x + 3 = 0 \implies x = -\frac{3}{2}$
+
+**Krok 2: Sprawdź naturę punktu krytycznego**
+
+Druga pochodna to:  
+$f''(x) = 2$  
+
+Ponieważ $f''(x) > 0$, funkcja ma **minimum** w punkcie $x = -\frac{3}{2}$.
+
+**Krok 3: Oblicz wartość funkcji w punkcie krytycznym**
+
+Podstawiamy $x = -\frac{3}{2}$ do wzoru na $f(x)$:  
+$f\left(-\frac{3}{2}\right) = \left(-\frac{3}{2}\right)^2 + 3\left(-\frac{3}{2}\right) - 5$  
+
+$f\left(-\frac{3}{2}\right) = \frac{9}{4} - \frac{9}{2} - 5 = \frac{9}{4} - \frac{18}{4} - \frac{20}{4} = -\frac{29}{4}$
+
+**Wniosek**
+Funkcja osiąga **minimum** w punkcie $x = -\frac{3}{2}$, a minimalna wartość to:  
+$f(x) = -\frac{29}{4}$
+
+---
+# **Zadanie 4**
+
+Znalezienie ekstremum funkcji dla funkcji $f(x) = \frac{x^2 + 2x + 1}{x - 1}$:
+
+**Krok 1: Przekształcenie funkcji**
+
+Funkcję można zapisać jako:  
+$$f(x) = \frac{(x + 1)^2}{x - 1}$$
+
+**Krok 2: Policz pochodną**
+
+Używamy reguły ilorazu:  
+$$f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot (x - 1)^2}{(x - 1)^2}$$  
+
+Uprośćmy licznik:  
+$$f'(x) = \frac{2(x^2 - 1) - (x^2 + 2x + 1)(x - 1)^2}{(x - 1)^2} = \frac{x^2 - 4x - 3}{(x - 1)^2}$$
+
+**Krok 3: Znajdź punkty krytyczne**
+
+Rozwiązujemy równanie $f'(x) = 0$:  
+$$x^2 - 4x - 3 = 0$$
+
+Rozkładamy na czynniki:  
+$$(x - 5)(x + 1) = 0 \implies x = 5 \quad \text{or} \quad x = -1$$
+
+**Krok 4: Sprawdź naturę punktów krytycznych**
+
+Aby dokładnie określić rodzaj ekstremów, należy przeanalizować zmiany znaku $f'(x)$ wokół punktów $x = 5$ i $x = -1$, oraz wziąć pod uwagę asymptotę pionową w $x = 1$.
+
+**Wniosek**
+
+Ekstrema funkcji występują w punktach $x = 5$ i $x = -1$. Dokładna analiza ich charakteru wymaga interpretacji zachowania funkcji w otoczeniu tych punktów oraz w pobliżu asymptoty.
+
