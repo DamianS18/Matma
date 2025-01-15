@@ -1,3 +1,4 @@
+# **Zadanie 1**
 Maksymalizacja zysku, funkcja zysku jest dana wzorem:  
 $$ P(u) = -2u^2 + 50u - 300 $$  
 gdzie $u$ oznacza liczbę sprzedanych jednostek.

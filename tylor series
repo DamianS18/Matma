@@ -1,0 +1,166 @@
+# Rozwiązanie i wyjaśnienie serii Taylora oraz stycznej
+
+## **Czym jest seria Taylora?**
+
+Seria Taylora to sposób przybliżania funkcji za pomocą wielomianu. Przybliżenie to jest szczególnie dokładne w pobliżu wybranego punktu \(x_0\). Seria Taylora wykorzystuje pochodne funkcji, aby "odtworzyć" jej zachowanie.
+
+Wzór ogólny dla serii Taylora funkcji \(f(x)\) wokół punktu \(x_0\) to:
+
+$$
+f(x) \approx f(x_0) + f'(x_0)(x - x_0) + \frac{f''(x_0)}{2!}(x - x_0)^2 + \frac{f^{(3)}(x_0)}{3!}(x - x_0)^3 + \dots
+$$
+
+Gdzie:
+- \(f'(x_0)\) to pierwsza pochodna funkcji obliczona w \(x_0\),
+- \(f''(x_0)\) to druga pochodna funkcji w \(x_0\),
+- \(n!\) oznacza silnię liczby \(n\), czyli \(n! = n * (n-1) * (n-2)...
+
+Im więcej składników dodamy do wzoru, tym dokładniejsze będzie przybliżenie funkcji.
+
+---
+
+## **1. Seria Taylora dla (f(x) = \cos(x)\) wokół \(x = 0\) do 4. stopnia**
+
+### **Krok 1: Obliczamy pochodne funkcji (f(x) = \cos(x)\)**
+
+Pochodne funkcji wyglądają następująco:
+- \(f(x) = cos(x)\),
+- \(f'(x) = -sin(x)\),
+- \(f''(x) = -cos(x)\),
+- \(f^{(3)}(x) = sin(x)\),
+- \(f^{(4)}(x) = cos(x)\).
+
+### **Krok 2: Obliczamy wartości pochodnych w punkcie \(x = 0\)**
+
+- \(f(0) = cos(0) = 1\),
+- \(f'(0) = -sin(0) = 0\),
+- \(f''(0) = -cos(0) = -1\),
+- \(f^{(3)}(0) = sin(0) = 0\),
+- \(f^{(4)}(0) = cos(0) = 1\).
+
+### **Krok 3: Podstawiamy wartości do wzoru Taylora**
+
+Seria Taylora do 4. stopnia:
+$$
+f(x) \approx f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f^{(3)}(0)}{3!}x^3 + \frac{f^{(4)}(0)}{4!}x^4
+$$
+
+Podstawiamy:
+$$
+f(x) \approx 1 + 0 \cdot x - \frac{1}{2}x^2 + 0 \cdot x^3 + \frac{1}{24}x^4
+$$
+
+Upraszczamy:
+$$
+f(x) \approx 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+---
+
+## **2. Seria Taylora dla \(h(x) = 1/1-x\) wokół \(x = 0\) do 3. stopnia**
+
+### **Krok 1: Obliczamy pochodne funkcji \(h(x) = \frac{1}{1-x}\)**
+
+Funkcja ta ma proste pochodne:
+
+- \(h(x) = (1-x)^{-1}\),
+- \(h'(x) = (1-x)^{-2}\),
+- \(h''(x) = 2(1-x)^{-3}\),
+- \(h^{(3)}(x) = 6(1-x)^{-4}\).
+
+
+### **Krok 2: Obliczamy wartości pochodnych w punkcie \(x = 0\)**
+
+- \(h(0) = 1/1-0 = 1\),
+- \(h'(0) = 1/(1-0)^{-2} = 1\),
+- \(h''(0) = 2/(1-0)^{-3} = 2\),
+- \(h^{(3)}(0) = 6/(1-0)^{-4} = 6\).
+
+### **Krok 3: Podstawiamy wartości do wzoru Taylora**
+
+Seria Taylora do 3. stopnia:
+$$
+h(x) \approx h(0) + h'(0)x + \frac{h''(0)}{2!}x^2 + \frac{h^{(3)}(0)}{3!}x^3
+$$
+
+Podstawiamy:
+$$
+h(x) \approx 1 + x + \frac{2}{2}x^2 + \frac{6}{6}x^3
+$$
+
+Upraszczamy:
+$$
+h(x) \approx 1 + x + x^2 + x^3
+$$
+
+---
+
+## **3. Seria Taylora dla (g(x) = sin(x)\) wokół \(x = pi\) do 3. stopnia**
+
+### **Krok 1: Obliczamy pochodne funkcji \(g(x) = \sin(x)\)**
+
+Pochodne funkcji:
+- \(g(x) = sin(x)\),
+- \(g'(x) = cos(x)\),
+- \(g''(x) = -sin(x)\),
+- \(g^{(3)}(x) = -cos(x)\).
+
+### **Krok 2: Obliczamy wartości pochodnych w punkcie \(x = pi\)**
+
+- \(g(\pi) = sin(\pi) = 0\),
+- \(g'(\pi) = cos(\pi) = -1\),
+- \(g''(\pi) = -sin(\pi) = 0\),
+- \(g^{(3)}(\pi) = -cos(\pi) = 1\).
+
+### **Krok 3: Podstawiamy wartości do wzoru Taylora**
+
+Seria Taylora do 3. stopnia:
+$$
+g(x) \approx g(\pi) + g'(\pi)(x - \pi) + \frac{g''(\pi)}{2!}(x - \pi)^2 + \frac{g^{(3)}(\pi)}{3!}(x - \pi)^3
+$$
+
+Podstawiamy:
+$$
+g(x) \approx 0 - (x - \pi) + 0 \cdot (x - \pi)^2 + \frac{1}{6}(x - \pi)^3
+$$
+
+Upraszczamy:
+$$
+g(x) \approx -(x - \pi) + \frac{1}{6}(x - \pi)^3
+$$
+
+---
+
+## **4. Prosta styczna do funkcji \(f(x) = e^sin(x) w punkcie \(x_0 = pi\)**
+
+Wzór stycznej to:
+$$
+y = f'(x_0)(x - x_0) + f(x_0)
+$$
+
+### **Krok 1: Obliczamy pochodną funkcji \f(x) = sin(x)**
+
+$$
+f'(x) = e^{\sin(x)} \cdot \cos(x)
+$$
+
+### **Krok 2: Obliczamy \(f(pi)\) i \(f'(pi)\)**
+
+- \(f(\pi) = e^{\sin(\pi)} = e^0 = 1\),
+- \(f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = e^0 \cdot (-1) = -1\).
+
+### **Krok 3: Podstawiamy do wzoru stycznej**
+
+$$
+y = f'(\pi)(x - \pi) + f(\pi)
+$$
+
+Podstawiamy:
+$$
+y = -1(x - \pi) + 1
+$$
+
+Upraszczamy:
+$$
+y = -x + \pi + 1
+$$
